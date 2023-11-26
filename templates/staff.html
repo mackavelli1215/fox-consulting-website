@@ -2,7 +2,29 @@
 {% block title %} W Fox Consulting {% endblock %}
 
 {% block content %}
-<li>
-  <a href="/staff">Staff Portal</a>
-</li>
+<div class="container">
+<div class="card" style="width: 15rem; margin:10px; overflow:hidden; list-style-type:none;">
+  <label>
+    <h4 class="text-center" style="background: #EB8D55; color: white;">Records/Forms</h4>
+  </label>
+  <div style="padding-left: 15px; padding-bottom: 15px;">
+  <li><a href="/lead-form">Lead Form</a></li>
+  <li><a href="/discovery-form">Discovery Questionairre</a></li>
+  <li><a href="/sow-form">Statement of Work Form</a></li>
+    <li><a href="/contract-form">Contract</a></li>
+  </div>
+</div>
+
+<div class="card" style="width: 15rem; margin:10px; overflow:hidden; list-style-type:none;">
+  <label>
+    <h4 class="text-center" style="background: #EB8D55; color:white; display:below">Lists</h4>
+  </label>
+  <div style="padding-left: 15px; padding-bottom: 15px;">
+  <li><a href="/leads-list">Leads</a></li>
+  <li><a href="/clients">Clients</a></li>
+  <li><a href="/sow-list">Statement of Work List</a></li>
+    <li><a href="/contracts">Contracts</a></li>
+</div>
+</div>
+</div>
 {% endblock %}
